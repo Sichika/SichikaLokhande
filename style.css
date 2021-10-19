@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@300&family=Roboto:ital,wght@0,300;0,500;1,100;1,300&display=swap');
+/*font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.navbar{
+    background-image:linear-gradient(to right, #b34e4e 0%, #ec3434 100%) ;
+    color:rgb(14, 2, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li {
+    display:inline-block;
+    list-style: none;
+
+}
+.navbar ul li a{
+    color:black;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar ul li a:hover{
+    background: #484949;
+}
+.logo{
+   font-size: 3rem;
+   font-family: 'Dancing Script', cursive;
+}
+
+.body1{
+    background-image:url('donate.png');
+    height: 100vh;
+}
+.header{
+    background-image:linear-gradient(rgba(24, 22,22,0.849), #91f8fc4f), url("bgl.jpeg") ;
+    height:500%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    
+}
+.header div{
+    background-image: url("joy.PNG");
+    background-color:rgb(247, 15, 84) ;
+    height:37rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left ;
+    font-family:'Dancing Script', cursive; 
+    padding-left: 5rem;
+}
+.form1{
+    align-content: center;
+    margin-left: 10rem;
+}
+
+.head-text1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 300px;
+    padding-top: 0px;
+    margin-left:10px;
+    margin-top:90px;
+    margin-right: 50rem;
+    padding: right 0rem; 
+    padding-left: 0rem;
+}
+.p-text1{
+    font-size: 1.3rem;
+    margin-bottom: 25rem;
+    margin:30px 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#About{
+    background-image: url('donate.png');
+    background-color: rgb(180, 106, 106));
+    height: 100vh;
+    background-size: cover;
+}
+    
+#About div{
+    background-color: rgba(14, 13, 13, 0.945));
+    height: 100%;
+}
+.About-h2{
+    color: rgb(38, 40, 41);
+    text-align:left;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding: right 5rem; 
+    margin : 21px 40px;
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+.About-p{
+    font-size: 1.5rem;
+    color: rgb(12, 23, 27);
+    text-align: left;
+    padding: right 2rem; 
+    padding: top 5rem; 
+    padding: bottom 5rem; 
+    margin:10px 60px;
+    font-family: 'Dancing Script', cursive;
+}
+.About-btn{
+    margin: 1rem 18rem 5rem 10rem;
+    float:left;
+    color:rgb(235, 234, 241);
+    width: 10rem;
+    height: 2rem;
+    background-color:rgb(109, 81, 81);
+    border-color:black ;
+}
+
+.form_details{
+    
+    border: 3px solid black;
+    text-align: center;
+	color:black;
+ 	font-family:'Copperplate Gothic Bold', Times, serif;
+	padding-top: 200px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    background-image:linear-gradient(rgba(224, 101, 128, 0.849), #06191a4f), url("bgl.jpeg") ;
+    border-radius: 30px;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right :160px;
+    margin-left: 300px;
+    width: 40%;
+    height: 50%;
+    border: 3px solid #f7f4f3;
+    padding: 10px;
+    row-gap: 50px;
+        
+	
+}
+label{
+    display:flex;
+    width: 20%;
+    text-align:start;
+}
+input, textarea {
+   display: inline-block;
+   width: 50%;
+   padding: 5px;
+   border-radius: 5px;
+   color:white ;
+}
+.from1{
+    background-image: url("donate.jpg");
+    height: 200vh;
+    margin-top: 100rem;
+    padding-top: 70rem;
+    padding-right: 100rem;
+    padding-bottom: 100rem;
+    padding-left: 100px;
+}
+input[type=text], input[type=password],textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background:rgb(12, 11, 11);
+  }
+  
+input[type=text]:focus, input[type=password]:focus {
+    background-color: rgba(14, 13, 13, 0.966);
+    outline: none;
+  }
+ button[type=submit]:hover {
+    background-color: #e63b51;
+    color:rgb(250, 250, 250)
+    background-color:black;
+ }

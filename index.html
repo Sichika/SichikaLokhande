@@ -1,0 +1,93 @@
+<!DOCtype html>
+<html>
+<head>
+    <title> The Joy Makers </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="background">
+    <nav class="navbar">
+        <h1 class="logo"> The Joy Makers </h1>
+        <ul>
+            <li><a href="#Home" claas="active"><i class="fa fa-fw fa-home"></i>Home</a></li>
+            <li><a href="#About"><i class="fa fa-fw fa-user"></i>About</a></li>
+            <li><a href="#Contact"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+        </ul>
+    </nav>
+  
+        <div class = "header">
+      <section id ="Home">
+        <div>
+            <h1 class="head-text1">You have Power to Bring Joy.</h1>
+            <p class="p-text1"><b>The Joy Makers </b>is a non-profit voluntary organization in india with an objective <br>of walfare 
+              and well-being of elderly people orphaned by their children and those <br>who are economically poor in our society.</p>  
+              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IANnHbaPUn9JdZ" async> </script> </form>
+        </div>
+      </section>
+      </div>
+      <f1 class="foot-text1">This website is made by Sichika Lokhande.</f1>
+     
+      <section id="About">
+        <div class="About"> 
+          <h2 class="About-h2"> A bit about us..</h2>
+                <p class="About-p">The Joy Makers believes to change the way pepole<br> treat at ageing in India. We enable aged people to lead active<br> lives through easy access to trusted information,</br>
+                  opportunities for productive ageing and health care support</br> services. The Joy Makers create an enlightnment society <br>in which elderly feel secure, confident and valued, <br>and can live without hope and dignity.</p>
+                    
+                    <button class="About-btn" onclick="window.location.href = 'http://joyfoundation.org.in/';">Read More</button>
+
+        </div>
+      </section>
+      <section id="Contact">
+      <form class="form1">
+        <script>
+            function validation()
+            {
+             var name=document.getElementById("name").value;
+             var email=document.getElementById("email").value;
+             var phone=document.getElementById("phone").value;
+             var message=document.getElementById("message").value;
+             if(name=="")
+             {
+               alert("Please Enter Name");
+             }
+             else if(email=="")
+             {
+               alert("Please Enter Email Id");
+             }
+             else if(phone=="")
+             {
+               alert("Please Enter Phone");
+             }
+             else if(message=="")
+             {
+               alert("Please Write Message");
+             }
+             else 
+             {
+               alert("Message Send Successfully");
+             }
+            }
+          </script>
+        <p>
+        <div class="form_details ">
+          <br><b>
+        <label for="name"><p>NAME</p></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          <br>
+        <label for="name">EMAIL</label>
+        <input type="text" id="email" name="email" placeholder="Enter email address">
+          <br>
+        <label for="name">PHONE</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter phone">
+          <br>
+        <label for="name">MESSAGE</label>
+        <textarea name="text" id="message" rows="2" placeholder="Enter Message"></textarea>
+        </b>
+          <br>
+        <button type="submit" value="submit" class="btn" onclick="validation()" >Send Message</button>
+        </div>
+        </p>
+      </form> 
+    </section>
+</body>
+</html>
